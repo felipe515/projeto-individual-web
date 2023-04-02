@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;   /* serve para tirar os espaços das beiradas*/
+}
+
+header {
+    padding: 4rem;
+    background: lightgray;
+}
+
+nav{
+    display: flex;  /* isso faz que um elemnto fique um atras do outro*/
+    justify-content: space-between;  /* isso faz que fique nas estremidades*/
+    align-items: center;  /*faz que os elementos fique no centro  */
+}
+
+ul{
+    display: flex; /* faz com que ul seja uma caixa flex e que um elemnto fique um atras do outro*/
+    list-style: none;  /* tira as bolinhas da lista*/
+    align-items: center;  /*faz que os elementos fique no centro  */
+    gap: 8rem;  /*faz uma separação entre os lementos*/
+}
+
+ul li:last-child{
+    background: black;
+    color: white;
+    padding: .8rem;
+}
+
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-syad{background-color:#000000;border-color:inherit;color:#ffffff;text-align:left;vertical-align:top}
+.tg .tg-item{background-color:#00d2cb;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-munk{background-color:#9b9b9b;border-color:inherit;color:#ffffff;text-align:left;vertical-align:top}
